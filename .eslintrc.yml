@@ -1,0 +1,14 @@
+root: true
+plugins:
+  - jest
+  - github
+extends:
+  - plugin:github/recommended
+  - plugin:jest/recommended
+parserOptions:
+  ecmaVersion: 2019
+env:
+  node: true
+  es2017: true
+rules:
+  github/no-then: off

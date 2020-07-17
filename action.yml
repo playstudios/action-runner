@@ -1,0 +1,13 @@
+name: action-runner
+description: Run PlayStudios private actions
+author: PlayStudios
+inputs:
+  action:
+    description: <action-name>@<version-ref>
+    required: true
+  repo-token:
+    description: GitHub token for checking out the repo
+    required: true
+runs:
+  using: node12
+  main: dist/index.js

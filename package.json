@@ -1,0 +1,25 @@
+{
+  "main": "src",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "jest",
+    "pack": "ncc build"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0",
+    "@actions/glob": "^0.1.0",
+    "execa": "^4.0.3",
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "@zeit/ncc": "^0.22.3",
+    "eslint": "^7.4.0",
+    "eslint-plugin-github": "^4.1.0",
+    "eslint-plugin-jest": "^23.18.0",
+    "jest": "^26.1.0",
+    "jest-circus": "^26.1.0",
+    "prettier": "^2.0.5"
+  }
+}
