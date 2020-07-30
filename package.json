@@ -2,7 +2,7 @@
   "main": "src",
   "scripts": {
     "lint": "eslint src",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "pack": "ncc build"
   },
   "dependencies": {
