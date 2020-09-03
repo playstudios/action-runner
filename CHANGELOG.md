@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/playstudios/action-runner/compare/v1.0.0...v1.1.0) (2020-09-03)
+
+
+### Features
+
+* diable detached head advice ([b3327a4](https://github.com/playstudios/action-runner/commit/b3327a4bb861d3931d8c97b6d7713a672b00a6a5))
+
 ## 1.0.0 (2020-07-30)
 
 

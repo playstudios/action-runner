@@ -8800,9 +8800,12 @@ const path = __webpack_require__(622)
       core.info('action was already checked out')
     } else {
       await fs.mkdir(repoDir, { recursive: true })
-      await execa.command(`git clone -b ${ref} --depth 1 https://_:${token}@github.com/${repo}.git ${repoDir}`, {
-        stdio: 'inherit',
-      })
+      await execa.command(
+        `git clone -b ${ref} --depth 1 -c advice.detachedHead=false https://_:${token}@github.com/${repo}.git ${repoDir}`,
+        {
+          stdio: 'inherit',
+        },
+      )
     }
     core.endGroup('Checkout action')
 
