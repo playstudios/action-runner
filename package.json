@@ -10,7 +10,7 @@
     "@actions/github": "^4.0.0",
     "@actions/glob": "^0.1.0",
     "execa": "^4.0.3",
-    "yaml": "^1.10.0"
+    "yaml": "^2.2.2"
   },
   "devDependencies": {
     "@types/jest": "^26.0.4",
